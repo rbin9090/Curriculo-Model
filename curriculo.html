@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Currículo</title>
+    <style type="text/css">
+        
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color:#327fa8;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+}
+
+
+
+.sidebar>.foto{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+}
+.sidebar>.line{
+    margin: 0 auto;
+    width: 70%;
+    height: 2px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.sidebar h2{
+    text-transform: uppercase;
+    margin-left: 38px;
+    margin-top: -1px;
+    font-size: 18px;
+}
+
+.sidebar ul {
+   
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+header h1{
+    color: #327fa8;
+}
+header >.line{
+    width: 80%;
+    margin: 0 auto;
+    height: 3px;
+    background-color: black;
+}
+
+main {
+    margin-top: 20px;
+}
+
+main >.about{
+    padding: 10px;
+}
+
+main >.about h2{
+    padding-left: 90px;
+}
+
+main >.about >.line{
+    background-color: black;
+    height: 2px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main >.about h3{
+    padding-left: 90px;
+    margin-top: 1px;
+    text-transform: uppercase;
+}
+
+.about ul li{
+    list-style: none;
+}
+
+.about ul li h6{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 50px;
+
+}
+
+.about ul li h5{
+    color: gray;
+    font-weight: bolder;
+    font-size: 16px;
+    padding-left: 50px;
+    margin-top: -40px;
+
+}
+.about ul li p{
+    color: gray;
+   
+    font-size: 16px;
+    padding-left: 50px;
+    margin-top: -20px;
+
+}
+
+
+#atual{
+    float: right;
+    margin-top: 30px;
+    color: gray;
+    font-weight: bolder;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+           
+            <div class="foto">
+                
+            </div>
+            <div class="line">.</div>
+            <h2>Contato</h2>
+            <ul>
+                
+                <li><i class="fa-solid fa-location-dot"></i> rua nome rua Endereço Total</li>
+                <li><i class="fa-solid fa-phone"></i> (88)888-88-88-88</li>
+                <li><i class="fa-solid fa-paper-plane"></i> nome@example.com.com</li>
+                <li><i class="fa-solid fa-cake-candles"></i> 27/07/1995</li>
+                <li><i class="fa-solid fa-flag"></i> Nacionalidade </li>
+                <li><i class="fa-solid fa-person"></i> Solteiro</li>
+                <li><i class="fa-solid fa-address-card"></i> CNH A e B</li>
+
+            </ul>
+            <div class="line">.</div>
+            <h2>HABILIDADES E COMPETÊNCIAS</h2>
+            <ul>
+                <li>Agilidade para cumprir prazos e produção.</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <header>
+              <h1>Ronald Fake sem Assinatura</h1>
+                <div class="line">.</div>
+            </header>
+            <main>
+                <section class="about">
+                    <h2>Resumo</h2>
+                    
+                <div class="line">.</div>
+                <h3>Experiência Profissional</h3>
+                <p id="atual">08/2023 - Atual</p>
+                    <ul>
+                        <li>
+                            <h6>Auxiliar de Produção</h6>
+                        </li>
+                        <li><h5>ADRAM LOG - <u>CIDADE , GO</u></h5></li>
+                         <li><p>* Eempllo de descrincao para a tarefa especifica.</p>
+                        <br>
+                
+                      
+                     <li>
+                        <p id="atual">01/2022 - 06/2023</p>
+                            <h6>EXEMPLE PROFISSON</h6>
+                        </li>
+                        <li><h5>EMPRESA LOREM - <u>AMET SIMETRICA, QO</u></h5></li>
+                         <li><p>* Texto descrintivo lorem impsom exemplo</p>
+
+                        <!-- Adicione mais itens conforme necessário -->
+                    </ul>
+                </section>
+               
+
+               
+            </main>
+
+        </div>
+    </div>
+</body>
+</html>
